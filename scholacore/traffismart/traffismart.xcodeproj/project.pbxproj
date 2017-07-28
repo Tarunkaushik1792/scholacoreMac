@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4DB40E1EE8C2300040AF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB40D1EE8C2300040AF41 /* AppDelegate.swift */; };
+		EE4DB4111EE8C2300040AF41 /* traffismart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB40F1EE8C2300040AF41 /* traffismart.xcdatamodeld */; };
+		EE4DB4181EE8C2300040AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB4161EE8C2300040AF41 /* Main.storyboard */; };
+		EE4DB41A1EE8C2300040AF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB4191EE8C2300040AF41 /* Assets.xcassets */; };
+		EE4DB41D1EE8C2300040AF41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB41B1EE8C2300040AF41 /* LaunchScreen.storyboard */; };
+		EE4DB4281EE8C2300040AF41 /* traffismartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4271EE8C2300040AF41 /* traffismartTests.swift */; };
+		EE4DB4331EE8C2300040AF41 /* traffismartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4321EE8C2300040AF41 /* traffismartUITests.swift */; };
+		EE4DB4431EE8C3E20040AF41 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4421EE8C3E20040AF41 /* SWRevealViewController.m */; };
+		EE4DB4451EE8C9B20040AF41 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4441EE8C9B20040AF41 /* mainViewController.swift */; };
+		EE4DB4471EE8D7290040AF41 /* aboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4461EE8D7290040AF41 /* aboutUsViewController.swift */; };
+		EE4DB4491EE8E01C0040AF41 /* shopingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4481EE8E01C0040AF41 /* shopingTableViewController.swift */; };
+		EE4DB44B1EE8E2F00040AF41 /* shopingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB44A1EE8E2F00040AF41 /* shopingTableViewCell.swift */; };
+		EE4DB44D1EEAE6F00040AF41 /* newTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB44C1EEAE6F00040AF41 /* newTableViewCell.swift */; };
+		EE4DB44F1EEAEC090040AF41 /* firstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB44E1EEAEC090040AF41 /* firstPageViewController.swift */; };
+		EE4DB4511EEAF13D0040AF41 /* cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4501EEAF13D0040AF41 /* cards.swift */; };
+		EE4DB4541EEB17E60040AF41 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4DB4531EEB17E60040AF41 /* MapKit.framework */; };
+		EE4DB4561EEB18680040AF41 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4551EEB18680040AF41 /* mapViewController.swift */; };
+		EE4DB4581EEB86950040AF41 /* maintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4571EEB86950040AF41 /* maintenanceViewController.swift */; };
+		EE4DB45A1EECEE540040AF41 /* carProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4591EECEE540040AF41 /* carProfileTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4DB4241EE8C2300040AF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4DB4021EE8C2300040AF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4DB4091EE8C2300040AF41;
+			remoteInfo = traffismart;
+		};
+		EE4DB42F1EE8C2300040AF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4DB4021EE8C2300040AF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4DB4091EE8C2300040AF41;
+			remoteInfo = traffismart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4DB40A1EE8C2300040AF41 /* traffismart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = traffismart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4DB40D1EE8C2300040AF41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE4DB4101EE8C2300040AF41 /* traffismart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = traffismart.xcdatamodel; sourceTree = "<group>"; };
+		EE4DB4171EE8C2300040AF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4DB4191EE8C2300040AF41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4DB41C1EE8C2300040AF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4DB41E1EE8C2300040AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DB4231EE8C2300040AF41 /* traffismartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = traffismartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4DB4271EE8C2300040AF41 /* traffismartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traffismartTests.swift; sourceTree = "<group>"; };
+		EE4DB4291EE8C2300040AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DB42E1EE8C2300040AF41 /* traffismartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = traffismartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4DB4321EE8C2300040AF41 /* traffismartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traffismartUITests.swift; sourceTree = "<group>"; };
+		EE4DB4341EE8C2300040AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4DB4401EE8C3E10040AF41 /* traffismart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "traffismart-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE4DB4411EE8C3E20040AF41 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../../../../Downloads/SWRevealViewControllers/SWRevealViewController.h; sourceTree = "<group>"; };
+		EE4DB4421EE8C3E20040AF41 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../../../../Downloads/SWRevealViewControllers/SWRevealViewController.m; sourceTree = "<group>"; };
+		EE4DB4441EE8C9B20040AF41 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		EE4DB4461EE8D7290040AF41 /* aboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutUsViewController.swift; sourceTree = "<group>"; };
+		EE4DB4481EE8E01C0040AF41 /* shopingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopingTableViewController.swift; sourceTree = "<group>"; };
+		EE4DB44A1EE8E2F00040AF41 /* shopingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shopingTableViewCell.swift; path = ../shopingTableViewCell.swift; sourceTree = "<group>"; };
+		EE4DB44C1EEAE6F00040AF41 /* newTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newTableViewCell.swift; sourceTree = "<group>"; };
+		EE4DB44E1EEAEC090040AF41 /* firstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstPageViewController.swift; sourceTree = "<group>"; };
+		EE4DB4501EEAF13D0040AF41 /* cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cards.swift; sourceTree = "<group>"; };
+		EE4DB4531EEB17E60040AF41 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EE4DB4551EEB18680040AF41 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		EE4DB4571EEB86950040AF41 /* maintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maintenanceViewController.swift; sourceTree = "<group>"; };
+		EE4DB4591EECEE540040AF41 /* carProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carProfileTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4DB4071EE8C2300040AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB4541EEB17E60040AF41 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB4201EE8C2300040AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB42B1EE8C2300040AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4DB4011EE8C2300040AF41 = {
+			isa = PBXGroup;
+			children = (
+				EE4DB40C1EE8C2300040AF41 /* traffismart */,
+				EE4DB4261EE8C2300040AF41 /* traffismartTests */,
+				EE4DB4311EE8C2300040AF41 /* traffismartUITests */,
+				EE4DB40B1EE8C2300040AF41 /* Products */,
+				EE4DB4521EEB17E60040AF41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4DB40B1EE8C2300040AF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB40A1EE8C2300040AF41 /* traffismart.app */,
+				EE4DB4231EE8C2300040AF41 /* traffismartTests.xctest */,
+				EE4DB42E1EE8C2300040AF41 /* traffismartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4DB40C1EE8C2300040AF41 /* traffismart */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB44A1EE8E2F00040AF41 /* shopingTableViewCell.swift */,
+				EE4DB40D1EE8C2300040AF41 /* AppDelegate.swift */,
+				EE4DB4161EE8C2300040AF41 /* Main.storyboard */,
+				EE4DB4191EE8C2300040AF41 /* Assets.xcassets */,
+				EE4DB41B1EE8C2300040AF41 /* LaunchScreen.storyboard */,
+				EE4DB41E1EE8C2300040AF41 /* Info.plist */,
+				EE4DB4411EE8C3E20040AF41 /* SWRevealViewController.h */,
+				EE4DB4421EE8C3E20040AF41 /* SWRevealViewController.m */,
+				EE4DB40F1EE8C2300040AF41 /* traffismart.xcdatamodeld */,
+				EE4DB4401EE8C3E10040AF41 /* traffismart-Bridging-Header.h */,
+				EE4DB4441EE8C9B20040AF41 /* mainViewController.swift */,
+				EE4DB4461EE8D7290040AF41 /* aboutUsViewController.swift */,
+				EE4DB4481EE8E01C0040AF41 /* shopingTableViewController.swift */,
+				EE4DB44C1EEAE6F00040AF41 /* newTableViewCell.swift */,
+				EE4DB44E1EEAEC090040AF41 /* firstPageViewController.swift */,
+				EE4DB4501EEAF13D0040AF41 /* cards.swift */,
+				EE4DB4551EEB18680040AF41 /* mapViewController.swift */,
+				EE4DB4571EEB86950040AF41 /* maintenanceViewController.swift */,
+				EE4DB4591EECEE540040AF41 /* carProfileTableViewController.swift */,
+			);
+			path = traffismart;
+			sourceTree = "<group>";
+		};
+		EE4DB4261EE8C2300040AF41 /* traffismartTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB4271EE8C2300040AF41 /* traffismartTests.swift */,
+				EE4DB4291EE8C2300040AF41 /* Info.plist */,
+			);
+			path = traffismartTests;
+			sourceTree = "<group>";
+		};
+		EE4DB4311EE8C2300040AF41 /* traffismartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB4321EE8C2300040AF41 /* traffismartUITests.swift */,
+				EE4DB4341EE8C2300040AF41 /* Info.plist */,
+			);
+			path = traffismartUITests;
+			sourceTree = "<group>";
+		};
+		EE4DB4521EEB17E60040AF41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4DB4531EEB17E60040AF41 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4DB4091EE8C2300040AF41 /* traffismart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4DB4371EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismart" */;
+			buildPhases = (
+				EE4DB4061EE8C2300040AF41 /* Sources */,
+				EE4DB4071EE8C2300040AF41 /* Frameworks */,
+				EE4DB4081EE8C2300040AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = traffismart;
+			productName = traffismart;
+			productReference = EE4DB40A1EE8C2300040AF41 /* traffismart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4DB4221EE8C2300040AF41 /* traffismartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4DB43A1EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismartTests" */;
+			buildPhases = (
+				EE4DB41F1EE8C2300040AF41 /* Sources */,
+				EE4DB4201EE8C2300040AF41 /* Frameworks */,
+				EE4DB4211EE8C2300040AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4DB4251EE8C2300040AF41 /* PBXTargetDependency */,
+			);
+			name = traffismartTests;
+			productName = traffismartTests;
+			productReference = EE4DB4231EE8C2300040AF41 /* traffismartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4DB42D1EE8C2300040AF41 /* traffismartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4DB43D1EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismartUITests" */;
+			buildPhases = (
+				EE4DB42A1EE8C2300040AF41 /* Sources */,
+				EE4DB42B1EE8C2300040AF41 /* Frameworks */,
+				EE4DB42C1EE8C2300040AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4DB4301EE8C2300040AF41 /* PBXTargetDependency */,
+			);
+			name = traffismartUITests;
+			productName = traffismartUITests;
+			productReference = EE4DB42E1EE8C2300040AF41 /* traffismartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4DB4021EE8C2300040AF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tarun kaushik";
+				TargetAttributes = {
+					EE4DB4091EE8C2300040AF41 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8689CZ4BV;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					EE4DB4221EE8C2300040AF41 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8689CZ4BV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE4DB4091EE8C2300040AF41;
+					};
+					EE4DB42D1EE8C2300040AF41 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8689CZ4BV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE4DB4091EE8C2300040AF41;
+					};
+				};
+			};
+			buildConfigurationList = EE4DB4051EE8C2300040AF41 /* Build configuration list for PBXProject "traffismart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4DB4011EE8C2300040AF41;
+			productRefGroup = EE4DB40B1EE8C2300040AF41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4DB4091EE8C2300040AF41 /* traffismart */,
+				EE4DB4221EE8C2300040AF41 /* traffismartTests */,
+				EE4DB42D1EE8C2300040AF41 /* traffismartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4DB4081EE8C2300040AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB41D1EE8C2300040AF41 /* LaunchScreen.storyboard in Resources */,
+				EE4DB41A1EE8C2300040AF41 /* Assets.xcassets in Resources */,
+				EE4DB4181EE8C2300040AF41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB4211EE8C2300040AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB42C1EE8C2300040AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4DB4061EE8C2300040AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB45A1EECEE540040AF41 /* carProfileTableViewController.swift in Sources */,
+				EE4DB40E1EE8C2300040AF41 /* AppDelegate.swift in Sources */,
+				EE4DB4471EE8D7290040AF41 /* aboutUsViewController.swift in Sources */,
+				EE4DB44F1EEAEC090040AF41 /* firstPageViewController.swift in Sources */,
+				EE4DB4491EE8E01C0040AF41 /* shopingTableViewController.swift in Sources */,
+				EE4DB4111EE8C2300040AF41 /* traffismart.xcdatamodeld in Sources */,
+				EE4DB44B1EE8E2F00040AF41 /* shopingTableViewCell.swift in Sources */,
+				EE4DB4431EE8C3E20040AF41 /* SWRevealViewController.m in Sources */,
+				EE4DB4561EEB18680040AF41 /* mapViewController.swift in Sources */,
+				EE4DB4581EEB86950040AF41 /* maintenanceViewController.swift in Sources */,
+				EE4DB44D1EEAE6F00040AF41 /* newTableViewCell.swift in Sources */,
+				EE4DB4451EE8C9B20040AF41 /* mainViewController.swift in Sources */,
+				EE4DB4511EEAF13D0040AF41 /* cards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB41F1EE8C2300040AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB4281EE8C2300040AF41 /* traffismartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4DB42A1EE8C2300040AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB4331EE8C2300040AF41 /* traffismartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4DB4251EE8C2300040AF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4DB4091EE8C2300040AF41 /* traffismart */;
+			targetProxy = EE4DB4241EE8C2300040AF41 /* PBXContainerItemProxy */;
+		};
+		EE4DB4301EE8C2300040AF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4DB4091EE8C2300040AF41 /* traffismart */;
+			targetProxy = EE4DB42F1EE8C2300040AF41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4DB4161EE8C2300040AF41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4DB4171EE8C2300040AF41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4DB41B1EE8C2300040AF41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4DB41C1EE8C2300040AF41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4DB4351EE8C2300040AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4DB4361EE8C2300040AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4DB4381EE8C2300040AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "traffismart/traffismart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE4DB4391EE8C2300040AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "traffismart/traffismart-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE4DB43B1EE8C2300040AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/traffismart.app/traffismart";
+			};
+			name = Debug;
+		};
+		EE4DB43C1EE8C2300040AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/traffismart.app/traffismart";
+			};
+			name = Release;
+		};
+		EE4DB43E1EE8C2300040AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = traffismart;
+			};
+			name = Debug;
+		};
+		EE4DB43F1EE8C2300040AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = traffismartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.traffismartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = traffismart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4DB4051EE8C2300040AF41 /* Build configuration list for PBXProject "traffismart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DB4351EE8C2300040AF41 /* Debug */,
+				EE4DB4361EE8C2300040AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4DB4371EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DB4381EE8C2300040AF41 /* Debug */,
+				EE4DB4391EE8C2300040AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4DB43A1EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DB43B1EE8C2300040AF41 /* Debug */,
+				EE4DB43C1EE8C2300040AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4DB43D1EE8C2300040AF41 /* Build configuration list for PBXNativeTarget "traffismartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4DB43E1EE8C2300040AF41 /* Debug */,
+				EE4DB43F1EE8C2300040AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE4DB40F1EE8C2300040AF41 /* traffismart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE4DB4101EE8C2300040AF41 /* traffismart.xcdatamodel */,
+			);
+			currentVersion = EE4DB4101EE8C2300040AF41 /* traffismart.xcdatamodel */;
+			path = traffismart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE4DB4021EE8C2300040AF41 /* Project object */;
+}

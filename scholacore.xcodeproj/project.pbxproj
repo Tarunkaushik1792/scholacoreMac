@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661A865A3F3CE2DAF196A821 /* Pods_scholacore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3835D6928EDAB18A939324D /* Pods_scholacore.framework */; };
+		A34112041F24CBD000D84B50 /* lectureEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34112031F24CBD000D84B50 /* lectureEditTableViewController.swift */; };
+		A35BF4F91F24FFCE00FFA0C7 /* SubjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF4F81F24FFCE00FFA0C7 /* SubjectsTableViewController.swift */; };
+		A35BF4FD1F278BA500FFA0C7 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BF4FC1F278BA500FFA0C7 /* Subject.swift */; };
+		A36756311F22385C0034F2C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A36756301F22385C0034F2C8 /* GoogleService-Info.plist */; };
+		A36756331F22DC8E0034F2C8 /* editTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36756321F22DC8E0034F2C8 /* editTableViewCell.swift */; };
+		A36CA6531F27917400FC4945 /* ADDSUBJECTController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CA6521F27917400FC4945 /* ADDSUBJECTController.swift */; };
+		A36CA6551F279C9300FC4945 /* SubjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CA6541F279C9300FC4945 /* SubjectViewModel.swift */; };
+		DAF874FBE20AEAEB21F37344 /* Pods_scholacoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6978297146190701478FC725 /* Pods_scholacoreUITests.framework */; };
+		EE336A4A1EDD818000068B1B /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE336A491EDD818000068B1B /* AddPostViewController.swift */; };
+		EE336A4C1EDD8F8300068B1B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE336A4B1EDD8F8300068B1B /* PostModel.swift */; };
+		EE4DB45D1EF6710F0040AF41 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB45B1EF6710F0040AF41 /* ContentCollectionViewCell.swift */; };
+		EE4DB45E1EF6710F0040AF41 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB45C1EF6710F0040AF41 /* ContentCollectionViewCell.xib */; };
+		EE4DB4611EFACF330040AF41 /* headerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB45F1EFACF330040AF41 /* headerCollectionViewCell.swift */; };
+		EE4DB4621EFACF330040AF41 /* headerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB4601EFACF330040AF41 /* headerCollectionViewCell.xib */; };
+		EE4DB4651EFB5D160040AF41 /* postMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4DB4631EFB5D160040AF41 /* postMenuCell.swift */; };
+		EE4DB4661EFB5D160040AF41 /* postMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4DB4641EFB5D160040AF41 /* postMenuCell.xib */; };
+		EE54BEE91F1BAF820074408F /* timeTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54BEE81F1BAF820074408F /* timeTableViewModel.swift */; };
+		EE9D29C91EDBD59A0056C5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29C81EDBD59A0056C5CD /* AppDelegate.swift */; };
+		EE9D29CE1EDBD59A0056C5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9D29CC1EDBD59A0056C5CD /* Main.storyboard */; };
+		EE9D29D11EDBD59A0056C5CD /* scholacore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29CF1EDBD59A0056C5CD /* scholacore.xcdatamodeld */; };
+		EE9D29D31EDBD59A0056C5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9D29D21EDBD59A0056C5CD /* Assets.xcassets */; };
+		EE9D29D61EDBD59A0056C5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9D29D41EDBD59A0056C5CD /* LaunchScreen.storyboard */; };
+		EE9D29E11EDBD59B0056C5CD /* scholacoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29E01EDBD59B0056C5CD /* scholacoreTests.swift */; };
+		EE9D29EC1EDBD59B0056C5CD /* scholacoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29EB1EDBD59B0056C5CD /* scholacoreUITests.swift */; };
+		EE9D29FB1EDBD76F0056C5CD /* loginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29FA1EDBD76F0056C5CD /* loginViewModel.swift */; };
+		EE9D29FD1EDBD7B00056C5CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29FC1EDBD7B00056C5CD /* Constants.swift */; };
+		EE9D2A001EDBD7F80056C5CD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D29FF1EDBD7F80056C5CD /* LogInViewController.swift */; };
+		EE9D2A031EDBD8460056C5CD /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A021EDBD8460056C5CD /* extentions.swift */; };
+		EE9D2A061EDBD92F0056C5CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A051EDBD92F0056C5CD /* User.swift */; };
+		EE9D2A091EDBD9AB0056C5CD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A081EDBD9AB0056C5CD /* Reachability.swift */; };
+		EE9D2A0B1EDBD9D50056C5CD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A0A1EDBD9D50056C5CD /* Post.swift */; };
+		EE9D2A0D1EDBDA090056C5CD /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A0C1EDBDA090056C5CD /* Lecture.swift */; };
+		EE9D2A0F1EDBDA250056C5CD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A0E1EDBDA250056C5CD /* Notification.swift */; };
+		EE9D2A121EDBDA660056C5CD /* ClassFeedSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A111EDBDA660056C5CD /* ClassFeedSectionController.swift */; };
+		EE9D2A161EDBDC620056C5CD /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A151EDBDC620056C5CD /* SignupVC.swift */; };
+		EE9D2A181EDBDC9F0056C5CD /* signupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A171EDBDC9F0056C5CD /* signupViewModel.swift */; };
+		EE9D2A1A1EDBDCED0056C5CD /* userProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A191EDBDCED0056C5CD /* userProfileModel.swift */; };
+		EE9D2A1C1EDBDD100056C5CD /* ProfileSetupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A1B1EDBDD100056C5CD /* ProfileSetupModel.swift */; };
+		EE9D2A1E1EDBDD350056C5CD /* ClassFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A1D1EDBDD350056C5CD /* ClassFeedViewModel.swift */; };
+		EE9D2A201EDBDD560056C5CD /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A1F1EDBDD560056C5CD /* FeedModel.swift */; };
+		EE9D2A221EDBDD7E0056C5CD /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A211EDBDD7E0056C5CD /* NotificationsViewModel.swift */; };
+		EE9D2A241EDBDE520056C5CD /* ProfileSetupPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A231EDBDE520056C5CD /* ProfileSetupPageViewController.swift */; };
+		EE9D2A261EDBDE860056C5CD /* profileSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A251EDBDE860056C5CD /* profileSetupViewController.swift */; };
+		EE9D2A281EDBDEAD0056C5CD /* displaypictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A271EDBDEAD0056C5CD /* displaypictureViewController.swift */; };
+		EE9D2A2B1EDBDFA00056C5CD /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A2A1EDBDFA00056C5CD /* MainTabBarVC.swift */; };
+		EE9D2A2D1EDBDFCF0056C5CD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A2C1EDBDFCF0056C5CD /* SecondViewController.swift */; };
+		EE9D2A2F1EDBDFEE0056C5CD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A2E1EDBDFEE0056C5CD /* FirstViewController.swift */; };
+		EE9D2A311EDBE00F0056C5CD /* userProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A301EDBE00F0056C5CD /* userProfileTableViewController.swift */; };
+		EE9D2A331EDBE0330056C5CD /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A321EDBE0330056C5CD /* TimeTableViewController.swift */; };
+		EE9D2A351EDBE0510056C5CD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A341EDBE0510056C5CD /* NotificationsViewController.swift */; };
+		EE9D2A3B1EDBE1000056C5CD /* PostCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A391EDBE1000056C5CD /* PostCollectionCell.swift */; };
+		EE9D2A3C1EDBE1000056C5CD /* PostCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9D2A3A1EDBE1000056C5CD /* PostCollectionCell.xib */; };
+		EE9D2A3E1EDBE1400056C5CD /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A3D1EDBE1400056C5CD /* TimeTableViewCell.swift */; };
+		EE9D2A411EDBE1690056C5CD /* FileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A3F1EDBE1690056C5CD /* FileCollectionViewCell.swift */; };
+		EE9D2A421EDBE1690056C5CD /* FileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9D2A401EDBE1690056C5CD /* FileCollectionViewCell.xib */; };
+		EE9D2A441EDBE2930056C5CD /* addNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A431EDBE2930056C5CD /* addNotificationViewController.swift */; };
+		EE9D2A461EDBE2CB0056C5CD /* subjectDetailsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A451EDBE2CB0056C5CD /* subjectDetailsTableView.swift */; };
+		EE9D2A481EDBE2F50056C5CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9D2A471EDBE2F50056C5CD /* DetailViewController.swift */; };
+		EED80D6E1F0BF08D00414042 /* postDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED80D6D1F0BF08D00414042 /* postDetailVC.swift */; };
+		F32C3788432F268330AA3081 /* Pods_scholacoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791561A232E63CB8264A9F37 /* Pods_scholacoreTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9D29DD1EDBD59B0056C5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9D29BD1EDBD59A0056C5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9D29C41EDBD59A0056C5CD;
+			remoteInfo = scholacore;
+		};
+		EE9D29E81EDBD59B0056C5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9D29BD1EDBD59A0056C5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9D29C41EDBD59A0056C5CD;
+			remoteInfo = scholacore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DD2FF56E59D65669E27FA7 /* Pods-scholacore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacore.release.xcconfig"; path = "Pods/Target Support Files/Pods-scholacore/Pods-scholacore.release.xcconfig"; sourceTree = "<group>"; };
+		3AA9B5876BDC686B2EC64185 /* Pods-scholacore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scholacore/Pods-scholacore.debug.xcconfig"; sourceTree = "<group>"; };
+		6978297146190701478FC725 /* Pods_scholacoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scholacoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791561A232E63CB8264A9F37 /* Pods_scholacoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scholacoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA9833F2D1188EEC52DB6DD /* Pods-scholacoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scholacoreTests/Pods-scholacoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A34112031F24CBD000D84B50 /* lectureEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lectureEditTableViewController.swift; sourceTree = "<group>"; };
+		A35BF4F81F24FFCE00FFA0C7 /* SubjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTableViewController.swift; sourceTree = "<group>"; };
+		A35BF4FC1F278BA500FFA0C7 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		A36756301F22385C0034F2C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A36756321F22DC8E0034F2C8 /* editTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editTableViewCell.swift; sourceTree = "<group>"; };
+		A36CA6521F27917400FC4945 /* ADDSUBJECTController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADDSUBJECTController.swift; sourceTree = "<group>"; };
+		A36CA6541F279C9300FC4945 /* SubjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewModel.swift; sourceTree = "<group>"; };
+		B55EACE9C6B1A57E94BAFF34 /* Pods-scholacoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scholacoreUITests/Pods-scholacoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA16579C53299555807426B0 /* Pods-scholacoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scholacoreUITests/Pods-scholacoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3835D6928EDAB18A939324D /* Pods_scholacore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scholacore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE336A491EDD818000068B1B /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		EE336A4B1EDD8F8300068B1B /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EE4DB45B1EF6710F0040AF41 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE4DB45C1EF6710F0040AF41 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE4DB45F1EFACF330040AF41 /* headerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE4DB4601EFACF330040AF41 /* headerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headerCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE4DB4631EFB5D160040AF41 /* postMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postMenuCell.swift; sourceTree = "<group>"; };
+		EE4DB4641EFB5D160040AF41 /* postMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = postMenuCell.xib; sourceTree = "<group>"; };
+		EE54BEE81F1BAF820074408F /* timeTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeTableViewModel.swift; sourceTree = "<group>"; };
+		EE9D29C51EDBD59A0056C5CD /* scholacore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scholacore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9D29C81EDBD59A0056C5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9D29CD1EDBD59A0056C5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9D29D01EDBD59A0056C5CD /* scholacore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scholacore.xcdatamodel; sourceTree = "<group>"; };
+		EE9D29D21EDBD59A0056C5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9D29D51EDBD59A0056C5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9D29D71EDBD59A0056C5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9D29DC1EDBD59B0056C5CD /* scholacoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scholacoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9D29E01EDBD59B0056C5CD /* scholacoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholacoreTests.swift; sourceTree = "<group>"; };
+		EE9D29E21EDBD59B0056C5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9D29E71EDBD59B0056C5CD /* scholacoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scholacoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9D29EB1EDBD59B0056C5CD /* scholacoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scholacoreUITests.swift; sourceTree = "<group>"; };
+		EE9D29ED1EDBD59B0056C5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9D29FA1EDBD76F0056C5CD /* loginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewModel.swift; sourceTree = "<group>"; };
+		EE9D29FC1EDBD7B00056C5CD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE9D29FF1EDBD7F80056C5CD /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EE9D2A021EDBD8460056C5CD /* extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
+		EE9D2A051EDBD92F0056C5CD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE9D2A081EDBD9AB0056C5CD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		EE9D2A0A1EDBD9D50056C5CD /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EE9D2A0C1EDBDA090056C5CD /* Lecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		EE9D2A0E1EDBDA250056C5CD /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		EE9D2A111EDBDA660056C5CD /* ClassFeedSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassFeedSectionController.swift; sourceTree = "<group>"; };
+		EE9D2A151EDBDC620056C5CD /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		EE9D2A171EDBDC9F0056C5CD /* signupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewModel.swift; sourceTree = "<group>"; };
+		EE9D2A191EDBDCED0056C5CD /* userProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileModel.swift; sourceTree = "<group>"; };
+		EE9D2A1B1EDBDD100056C5CD /* ProfileSetupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSetupModel.swift; sourceTree = "<group>"; };
+		EE9D2A1D1EDBDD350056C5CD /* ClassFeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassFeedViewModel.swift; sourceTree = "<group>"; };
+		EE9D2A1F1EDBDD560056C5CD /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		EE9D2A211EDBDD7E0056C5CD /* NotificationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		EE9D2A231EDBDE520056C5CD /* ProfileSetupPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSetupPageViewController.swift; sourceTree = "<group>"; };
+		EE9D2A251EDBDE860056C5CD /* profileSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileSetupViewController.swift; sourceTree = "<group>"; };
+		EE9D2A271EDBDEAD0056C5CD /* displaypictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displaypictureViewController.swift; sourceTree = "<group>"; };
+		EE9D2A2A1EDBDFA00056C5CD /* MainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		EE9D2A2C1EDBDFCF0056C5CD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE9D2A2E1EDBDFEE0056C5CD /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EE9D2A301EDBE00F0056C5CD /* userProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileTableViewController.swift; sourceTree = "<group>"; };
+		EE9D2A321EDBE0330056C5CD /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		EE9D2A341EDBE0510056C5CD /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		EE9D2A391EDBE1000056C5CD /* PostCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionCell.swift; sourceTree = "<group>"; };
+		EE9D2A3A1EDBE1000056C5CD /* PostCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCollectionCell.xib; sourceTree = "<group>"; };
+		EE9D2A3D1EDBE1400056C5CD /* TimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		EE9D2A3F1EDBE1690056C5CD /* FileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE9D2A401EDBE1690056C5CD /* FileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FileCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE9D2A431EDBE2930056C5CD /* addNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNotificationViewController.swift; sourceTree = "<group>"; };
+		EE9D2A451EDBE2CB0056C5CD /* subjectDetailsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subjectDetailsTableView.swift; sourceTree = "<group>"; };
+		EE9D2A471EDBE2F50056C5CD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EE9D2A491EDBE45D0056C5CD /* scholacore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scholacore.entitlements; sourceTree = "<group>"; };
+		EED80D6D1F0BF08D00414042 /* postDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postDetailVC.swift; sourceTree = "<group>"; };
+		FDD9A0085BA07CB089DFA1B8 /* Pods-scholacoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scholacoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scholacoreTests/Pods-scholacoreTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9D29C21EDBD59A0056C5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A865A3F3CE2DAF196A821 /* Pods_scholacore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29D91EDBD59B0056C5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32C3788432F268330AA3081 /* Pods_scholacoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29E41EDBD59B0056C5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF874FBE20AEAEB21F37344 /* Pods_scholacoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26983A9D3A50A4FB424B7FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3835D6928EDAB18A939324D /* Pods_scholacore.framework */,
+				791561A232E63CB8264A9F37 /* Pods_scholacoreTests.framework */,
+				6978297146190701478FC725 /* Pods_scholacoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F409116BACE5CB4FBB835B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA9B5876BDC686B2EC64185 /* Pods-scholacore.debug.xcconfig */,
+				33DD2FF56E59D65669E27FA7 /* Pods-scholacore.release.xcconfig */,
+				9AA9833F2D1188EEC52DB6DD /* Pods-scholacoreTests.debug.xcconfig */,
+				FDD9A0085BA07CB089DFA1B8 /* Pods-scholacoreTests.release.xcconfig */,
+				BA16579C53299555807426B0 /* Pods-scholacoreUITests.debug.xcconfig */,
+				B55EACE9C6B1A57E94BAFF34 /* Pods-scholacoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE9D29BC1EDBD59A0056C5CD = {
+			isa = PBXGroup;
+			children = (
+				EE9D29C71EDBD59A0056C5CD /* scholacore */,
+				EE9D29DF1EDBD59B0056C5CD /* scholacoreTests */,
+				EE9D29EA1EDBD59B0056C5CD /* scholacoreUITests */,
+				EE9D29C61EDBD59A0056C5CD /* Products */,
+				4F409116BACE5CB4FBB835B1 /* Pods */,
+				26983A9D3A50A4FB424B7FDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9D29C61EDBD59A0056C5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D29C51EDBD59A0056C5CD /* scholacore.app */,
+				EE9D29DC1EDBD59B0056C5CD /* scholacoreTests.xctest */,
+				EE9D29E71EDBD59B0056C5CD /* scholacoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9D29C71EDBD59A0056C5CD /* scholacore */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A491EDBE45D0056C5CD /* scholacore.entitlements */,
+				EE9D2A361EDBE06B0056C5CD /* Cells */,
+				EE9D29F91EDBD7450056C5CD /* viewModels */,
+				EE9D2A101EDBDA480056C5CD /* sectionsController */,
+				EE9D2A071EDBD97F0056C5CD /* Reachability */,
+				EE9D2A041EDBD9190056C5CD /* Models */,
+				EE9D2A011EDBD8270056C5CD /* extension */,
+				EE9D29FE1EDBD7C10056C5CD /* ViewControllers */,
+				EE9D29C81EDBD59A0056C5CD /* AppDelegate.swift */,
+				A36756301F22385C0034F2C8 /* GoogleService-Info.plist */,
+				EE9D29CC1EDBD59A0056C5CD /* Main.storyboard */,
+				EE9D29D21EDBD59A0056C5CD /* Assets.xcassets */,
+				EE9D29D41EDBD59A0056C5CD /* LaunchScreen.storyboard */,
+				EE9D29D71EDBD59A0056C5CD /* Info.plist */,
+				EE9D29CF1EDBD59A0056C5CD /* scholacore.xcdatamodeld */,
+			);
+			path = scholacore;
+			sourceTree = "<group>";
+		};
+		EE9D29DF1EDBD59B0056C5CD /* scholacoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D29E01EDBD59B0056C5CD /* scholacoreTests.swift */,
+				EE9D29E21EDBD59B0056C5CD /* Info.plist */,
+			);
+			path = scholacoreTests;
+			sourceTree = "<group>";
+		};
+		EE9D29EA1EDBD59B0056C5CD /* scholacoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D29EB1EDBD59B0056C5CD /* scholacoreUITests.swift */,
+				EE9D29ED1EDBD59B0056C5CD /* Info.plist */,
+			);
+			path = scholacoreUITests;
+			sourceTree = "<group>";
+		};
+		EE9D29F91EDBD7450056C5CD /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A171EDBDC9F0056C5CD /* signupViewModel.swift */,
+				EE9D29FA1EDBD76F0056C5CD /* loginViewModel.swift */,
+				EE9D29FC1EDBD7B00056C5CD /* Constants.swift */,
+				EE9D2A191EDBDCED0056C5CD /* userProfileModel.swift */,
+				EE9D2A1B1EDBDD100056C5CD /* ProfileSetupModel.swift */,
+				EE9D2A1D1EDBDD350056C5CD /* ClassFeedViewModel.swift */,
+				EE9D2A1F1EDBDD560056C5CD /* FeedModel.swift */,
+				EE9D2A211EDBDD7E0056C5CD /* NotificationsViewModel.swift */,
+				EE336A4B1EDD8F8300068B1B /* PostModel.swift */,
+				EE54BEE81F1BAF820074408F /* timeTableViewModel.swift */,
+				A36CA6541F279C9300FC4945 /* SubjectViewModel.swift */,
+			);
+			name = viewModels;
+			sourceTree = "<group>";
+		};
+		EE9D29FE1EDBD7C10056C5CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A291EDBDF890056C5CD /* tabBarControllers */,
+				EE9D29FF1EDBD7F80056C5CD /* LogInViewController.swift */,
+				EE9D2A151EDBDC620056C5CD /* SignupVC.swift */,
+				EE9D2A231EDBDE520056C5CD /* ProfileSetupPageViewController.swift */,
+				EE9D2A251EDBDE860056C5CD /* profileSetupViewController.swift */,
+				EE9D2A271EDBDEAD0056C5CD /* displaypictureViewController.swift */,
+				EE9D2A431EDBE2930056C5CD /* addNotificationViewController.swift */,
+				EE9D2A451EDBE2CB0056C5CD /* subjectDetailsTableView.swift */,
+				EE9D2A471EDBE2F50056C5CD /* DetailViewController.swift */,
+				EE336A491EDD818000068B1B /* AddPostViewController.swift */,
+				EED80D6D1F0BF08D00414042 /* postDetailVC.swift */,
+				A34112031F24CBD000D84B50 /* lectureEditTableViewController.swift */,
+				A35BF4F81F24FFCE00FFA0C7 /* SubjectsTableViewController.swift */,
+				A36CA6521F27917400FC4945 /* ADDSUBJECTController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE9D2A011EDBD8270056C5CD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A021EDBD8460056C5CD /* extentions.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		EE9D2A041EDBD9190056C5CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A051EDBD92F0056C5CD /* User.swift */,
+				EE9D2A0A1EDBD9D50056C5CD /* Post.swift */,
+				EE9D2A0C1EDBDA090056C5CD /* Lecture.swift */,
+				EE9D2A0E1EDBDA250056C5CD /* Notification.swift */,
+				A35BF4FC1F278BA500FFA0C7 /* Subject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EE9D2A071EDBD97F0056C5CD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A081EDBD9AB0056C5CD /* Reachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		EE9D2A101EDBDA480056C5CD /* sectionsController */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A111EDBDA660056C5CD /* ClassFeedSectionController.swift */,
+			);
+			name = sectionsController;
+			sourceTree = "<group>";
+		};
+		EE9D2A291EDBDF890056C5CD /* tabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A2A1EDBDFA00056C5CD /* MainTabBarVC.swift */,
+				EE9D2A2C1EDBDFCF0056C5CD /* SecondViewController.swift */,
+				EE9D2A2E1EDBDFEE0056C5CD /* FirstViewController.swift */,
+				EE9D2A301EDBE00F0056C5CD /* userProfileTableViewController.swift */,
+				EE9D2A321EDBE0330056C5CD /* TimeTableViewController.swift */,
+				EE9D2A341EDBE0510056C5CD /* NotificationsViewController.swift */,
+			);
+			name = tabBarControllers;
+			sourceTree = "<group>";
+		};
+		EE9D2A361EDBE06B0056C5CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EE9D2A391EDBE1000056C5CD /* PostCollectionCell.swift */,
+				EE9D2A3A1EDBE1000056C5CD /* PostCollectionCell.xib */,
+				EE9D2A3D1EDBE1400056C5CD /* TimeTableViewCell.swift */,
+				EE9D2A3F1EDBE1690056C5CD /* FileCollectionViewCell.swift */,
+				EE9D2A401EDBE1690056C5CD /* FileCollectionViewCell.xib */,
+				EE4DB45B1EF6710F0040AF41 /* ContentCollectionViewCell.swift */,
+				EE4DB45C1EF6710F0040AF41 /* ContentCollectionViewCell.xib */,
+				EE4DB45F1EFACF330040AF41 /* headerCollectionViewCell.swift */,
+				EE4DB4601EFACF330040AF41 /* headerCollectionViewCell.xib */,
+				EE4DB4631EFB5D160040AF41 /* postMenuCell.swift */,
+				EE4DB4641EFB5D160040AF41 /* postMenuCell.xib */,
+				A36756321F22DC8E0034F2C8 /* editTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9D29C41EDBD59A0056C5CD /* scholacore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9D29F01EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacore" */;
+			buildPhases = (
+				5F41EB2B6E579120DA609FA9 /* [CP] Check Pods Manifest.lock */,
+				EE9D29C11EDBD59A0056C5CD /* Sources */,
+				EE9D29C21EDBD59A0056C5CD /* Frameworks */,
+				EE9D29C31EDBD59A0056C5CD /* Resources */,
+				1AE4584C90C69DE57D329717 /* [CP] Embed Pods Frameworks */,
+				37EEB8DE474D6A5E92FCEB90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scholacore;
+			productName = scholacore;
+			productReference = EE9D29C51EDBD59A0056C5CD /* scholacore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9D29DB1EDBD59B0056C5CD /* scholacoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9D29F31EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacoreTests" */;
+			buildPhases = (
+				E592A92F10E2DFEBFF6C97F5 /* [CP] Check Pods Manifest.lock */,
+				EE9D29D81EDBD59B0056C5CD /* Sources */,
+				EE9D29D91EDBD59B0056C5CD /* Frameworks */,
+				EE9D29DA1EDBD59B0056C5CD /* Resources */,
+				85E245DA1688659A34031296 /* [CP] Embed Pods Frameworks */,
+				51BC6DE8DCC1F8F5E5276198 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9D29DE1EDBD59B0056C5CD /* PBXTargetDependency */,
+			);
+			name = scholacoreTests;
+			productName = scholacoreTests;
+			productReference = EE9D29DC1EDBD59B0056C5CD /* scholacoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9D29E61EDBD59B0056C5CD /* scholacoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9D29F61EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacoreUITests" */;
+			buildPhases = (
+				FA29E79B206C12A70DD83B8E /* [CP] Check Pods Manifest.lock */,
+				EE9D29E31EDBD59B0056C5CD /* Sources */,
+				EE9D29E41EDBD59B0056C5CD /* Frameworks */,
+				EE9D29E51EDBD59B0056C5CD /* Resources */,
+				8478BB56915C5DC8706D11B6 /* [CP] Embed Pods Frameworks */,
+				F5BE48EBDF125350DFF2E6F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9D29E91EDBD59B0056C5CD /* PBXTargetDependency */,
+			);
+			name = scholacoreUITests;
+			productName = scholacoreUITests;
+			productReference = EE9D29E71EDBD59B0056C5CD /* scholacoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9D29BD1EDBD59A0056C5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tarun kaushik";
+				TargetAttributes = {
+					EE9D29C41EDBD59A0056C5CD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K8689CZ4BV;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					EE9D29DB1EDBD59B0056C5CD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K8689CZ4BV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE9D29C41EDBD59A0056C5CD;
+					};
+					EE9D29E61EDBD59B0056C5CD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K8689CZ4BV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE9D29C41EDBD59A0056C5CD;
+					};
+				};
+			};
+			buildConfigurationList = EE9D29C01EDBD59A0056C5CD /* Build configuration list for PBXProject "scholacore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9D29BC1EDBD59A0056C5CD;
+			productRefGroup = EE9D29C61EDBD59A0056C5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9D29C41EDBD59A0056C5CD /* scholacore */,
+				EE9D29DB1EDBD59B0056C5CD /* scholacoreTests */,
+				EE9D29E61EDBD59B0056C5CD /* scholacoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9D29C31EDBD59A0056C5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4DB45E1EF6710F0040AF41 /* ContentCollectionViewCell.xib in Resources */,
+				EE9D29D61EDBD59A0056C5CD /* LaunchScreen.storyboard in Resources */,
+				EE9D29D31EDBD59A0056C5CD /* Assets.xcassets in Resources */,
+				EE9D2A3C1EDBE1000056C5CD /* PostCollectionCell.xib in Resources */,
+				EE4DB4621EFACF330040AF41 /* headerCollectionViewCell.xib in Resources */,
+				EE4DB4661EFB5D160040AF41 /* postMenuCell.xib in Resources */,
+				A36756311F22385C0034F2C8 /* GoogleService-Info.plist in Resources */,
+				EE9D2A421EDBE1690056C5CD /* FileCollectionViewCell.xib in Resources */,
+				EE9D29CE1EDBD59A0056C5CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29DA1EDBD59B0056C5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29E51EDBD59B0056C5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE4584C90C69DE57D329717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacore/Pods-scholacore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EEB8DE474D6A5E92FCEB90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacore/Pods-scholacore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BC6DE8DCC1F8F5E5276198 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacoreTests/Pods-scholacoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F41EB2B6E579120DA609FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8478BB56915C5DC8706D11B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacoreUITests/Pods-scholacoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E245DA1688659A34031296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacoreTests/Pods-scholacoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E592A92F10E2DFEBFF6C97F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BE48EBDF125350DFF2E6F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scholacoreUITests/Pods-scholacoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA29E79B206C12A70DD83B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9D29C11EDBD59A0056C5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9D2A461EDBE2CB0056C5CD /* subjectDetailsTableView.swift in Sources */,
+				EE336A4C1EDD8F8300068B1B /* PostModel.swift in Sources */,
+				EE9D2A481EDBE2F50056C5CD /* DetailViewController.swift in Sources */,
+				EE9D2A2D1EDBDFCF0056C5CD /* SecondViewController.swift in Sources */,
+				EE9D2A281EDBDEAD0056C5CD /* displaypictureViewController.swift in Sources */,
+				EE9D2A031EDBD8460056C5CD /* extentions.swift in Sources */,
+				EE9D2A241EDBDE520056C5CD /* ProfileSetupPageViewController.swift in Sources */,
+				EED80D6E1F0BF08D00414042 /* postDetailVC.swift in Sources */,
+				EE336A4A1EDD818000068B1B /* AddPostViewController.swift in Sources */,
+				EE9D2A201EDBDD560056C5CD /* FeedModel.swift in Sources */,
+				EE9D29D11EDBD59A0056C5CD /* scholacore.xcdatamodeld in Sources */,
+				EE9D2A181EDBDC9F0056C5CD /* signupViewModel.swift in Sources */,
+				EE9D2A1E1EDBDD350056C5CD /* ClassFeedViewModel.swift in Sources */,
+				EE9D2A331EDBE0330056C5CD /* TimeTableViewController.swift in Sources */,
+				A36CA6531F27917400FC4945 /* ADDSUBJECTController.swift in Sources */,
+				EE9D2A311EDBE00F0056C5CD /* userProfileTableViewController.swift in Sources */,
+				EE9D29C91EDBD59A0056C5CD /* AppDelegate.swift in Sources */,
+				A35BF4FD1F278BA500FFA0C7 /* Subject.swift in Sources */,
+				EE4DB4611EFACF330040AF41 /* headerCollectionViewCell.swift in Sources */,
+				EE9D29FB1EDBD76F0056C5CD /* loginViewModel.swift in Sources */,
+				EE9D2A221EDBDD7E0056C5CD /* NotificationsViewModel.swift in Sources */,
+				EE9D2A1C1EDBDD100056C5CD /* ProfileSetupModel.swift in Sources */,
+				A36CA6551F279C9300FC4945 /* SubjectViewModel.swift in Sources */,
+				EE9D2A3E1EDBE1400056C5CD /* TimeTableViewCell.swift in Sources */,
+				EE4DB45D1EF6710F0040AF41 /* ContentCollectionViewCell.swift in Sources */,
+				EE9D2A2B1EDBDFA00056C5CD /* MainTabBarVC.swift in Sources */,
+				EE9D2A0D1EDBDA090056C5CD /* Lecture.swift in Sources */,
+				EE9D2A001EDBD7F80056C5CD /* LogInViewController.swift in Sources */,
+				EE9D2A161EDBDC620056C5CD /* SignupVC.swift in Sources */,
+				A35BF4F91F24FFCE00FFA0C7 /* SubjectsTableViewController.swift in Sources */,
+				EE9D2A1A1EDBDCED0056C5CD /* userProfileModel.swift in Sources */,
+				EE9D2A351EDBE0510056C5CD /* NotificationsViewController.swift in Sources */,
+				EE9D2A441EDBE2930056C5CD /* addNotificationViewController.swift in Sources */,
+				EE4DB4651EFB5D160040AF41 /* postMenuCell.swift in Sources */,
+				EE9D29FD1EDBD7B00056C5CD /* Constants.swift in Sources */,
+				EE9D2A0B1EDBD9D50056C5CD /* Post.swift in Sources */,
+				A34112041F24CBD000D84B50 /* lectureEditTableViewController.swift in Sources */,
+				EE9D2A121EDBDA660056C5CD /* ClassFeedSectionController.swift in Sources */,
+				EE9D2A2F1EDBDFEE0056C5CD /* FirstViewController.swift in Sources */,
+				EE9D2A0F1EDBDA250056C5CD /* Notification.swift in Sources */,
+				EE9D2A411EDBE1690056C5CD /* FileCollectionViewCell.swift in Sources */,
+				EE9D2A091EDBD9AB0056C5CD /* Reachability.swift in Sources */,
+				A36756331F22DC8E0034F2C8 /* editTableViewCell.swift in Sources */,
+				EE9D2A3B1EDBE1000056C5CD /* PostCollectionCell.swift in Sources */,
+				EE9D2A261EDBDE860056C5CD /* profileSetupViewController.swift in Sources */,
+				EE9D2A061EDBD92F0056C5CD /* User.swift in Sources */,
+				EE54BEE91F1BAF820074408F /* timeTableViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29D81EDBD59B0056C5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9D29E11EDBD59B0056C5CD /* scholacoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9D29E31EDBD59B0056C5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9D29EC1EDBD59B0056C5CD /* scholacoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9D29DE1EDBD59B0056C5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9D29C41EDBD59A0056C5CD /* scholacore */;
+			targetProxy = EE9D29DD1EDBD59B0056C5CD /* PBXContainerItemProxy */;
+		};
+		EE9D29E91EDBD59B0056C5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9D29C41EDBD59A0056C5CD /* scholacore */;
+			targetProxy = EE9D29E81EDBD59B0056C5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9D29CC1EDBD59A0056C5CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9D29CD1EDBD59A0056C5CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9D29D41EDBD59A0056C5CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9D29D51EDBD59A0056C5CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9D29EE1EDBD59B0056C5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9D29EF1EDBD59B0056C5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9D29F11EDBD59B0056C5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA9B5876BDC686B2EC64185 /* Pods-scholacore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = scholacore/scholacore.entitlements;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacore2.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE9D29F21EDBD59B0056C5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DD2FF56E59D65669E27FA7 /* Pods-scholacore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = scholacore/scholacore.entitlements;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacore2.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE9D29F41EDBD59B0056C5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA9833F2D1188EEC52DB6DD /* Pods-scholacoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scholacore.app/scholacore";
+			};
+			name = Debug;
+		};
+		EE9D29F51EDBD59B0056C5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD9A0085BA07CB089DFA1B8 /* Pods-scholacoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scholacore.app/scholacore";
+			};
+			name = Release;
+		};
+		EE9D29F71EDBD59B0056C5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA16579C53299555807426B0 /* Pods-scholacoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = scholacore;
+			};
+			name = Debug;
+		};
+		EE9D29F81EDBD59B0056C5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55EACE9C6B1A57E94BAFF34 /* Pods-scholacoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8689CZ4BV;
+				INFOPLIST_FILE = scholacoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TK.scholacoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = scholacore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9D29C01EDBD59A0056C5CD /* Build configuration list for PBXProject "scholacore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9D29EE1EDBD59B0056C5CD /* Debug */,
+				EE9D29EF1EDBD59B0056C5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9D29F01EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9D29F11EDBD59B0056C5CD /* Debug */,
+				EE9D29F21EDBD59B0056C5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9D29F31EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9D29F41EDBD59B0056C5CD /* Debug */,
+				EE9D29F51EDBD59B0056C5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9D29F61EDBD59B0056C5CD /* Build configuration list for PBXNativeTarget "scholacoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9D29F71EDBD59B0056C5CD /* Debug */,
+				EE9D29F81EDBD59B0056C5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE9D29CF1EDBD59A0056C5CD /* scholacore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE9D29D01EDBD59A0056C5CD /* scholacore.xcdatamodel */,
+			);
+			currentVersion = EE9D29D01EDBD59A0056C5CD /* scholacore.xcdatamodel */;
+			path = scholacore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE9D29BD1EDBD59A0056C5CD /* Project object */;
+}

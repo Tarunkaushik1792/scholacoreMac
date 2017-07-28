@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ContentCell" reuseIdentifier="" id="gTV-IL-0wX" customClass="ContentCollectionViewCell" customModule="scholacore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6h-uo-QY5">
+                        <rect key="frame" x="10" y="0.0" width="355" height="46"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday, 23 June 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hl-re-T8w">
+                        <rect key="frame" x="15" y="60" width="109" height="14"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                        <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jD5-yX-7aT">
+                        <rect key="frame" x="0.0" y="74" width="375" height="5"/>
+                        <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="YSF-CN-WLV"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="threeDots" translatesAutoresizingMaskIntoConstraints="NO" id="Z59-ZX-QHb">
+                        <rect key="frame" x="0.0" y="46" width="375" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Aa2-n6-W5w"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="I6h-uo-QY5" secondAttribute="trailing" constant="10" id="3PF-JT-AUH"/>
+                <constraint firstItem="jD5-yX-7aT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4ES-PX-PZk"/>
+                <constraint firstAttribute="trailing" secondItem="jD5-yX-7aT" secondAttribute="trailing" id="ANc-VP-NF2"/>
+                <constraint firstItem="jD5-yX-7aT" firstAttribute="top" secondItem="Z59-ZX-QHb" secondAttribute="bottom" constant="8" id="GcM-Mu-hej"/>
+                <constraint firstAttribute="bottom" secondItem="jD5-yX-7aT" secondAttribute="bottom" id="RAe-to-2fX"/>
+                <constraint firstItem="0Hl-re-T8w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="RgX-Ja-VeV"/>
+                <constraint firstItem="Z59-ZX-QHb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Yfy-Z8-FGO"/>
+                <constraint firstItem="Z59-ZX-QHb" firstAttribute="top" secondItem="I6h-uo-QY5" secondAttribute="bottom" id="d71-MN-vs1"/>
+                <constraint firstAttribute="trailing" secondItem="Z59-ZX-QHb" secondAttribute="trailing" id="dYJ-8t-1x3"/>
+                <constraint firstItem="Z59-ZX-QHb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="mKr-EW-AZN"/>
+                <constraint firstItem="I6h-uo-QY5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="opT-nz-lcI"/>
+                <constraint firstItem="I6h-uo-QY5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yGS-8B-Py3"/>
+                <constraint firstAttribute="bottom" secondItem="0Hl-re-T8w" secondAttribute="bottom" constant="5" id="zcl-r7-6ye"/>
+            </constraints>
+            <size key="customSize" width="364" height="79"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="0Hl-re-T8w"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="contentTextView" destination="I6h-uo-QY5" id="KFz-Qk-Rea"/>
+                <outlet property="dateLabel" destination="0Hl-re-T8w" id="AcV-5Q-2iX"/>
+            </connections>
+            <point key="canvasLocation" x="49.5" y="61.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="threeDots" width="128" height="128"/>
+    </resources>
+</document>
